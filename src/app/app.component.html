@@ -1,0 +1,8 @@
+<tab-bar
+    [active]="current"
+    [items]="countries"
+    (onTabSelect)="select($event)">
+</tab-bar>
+
+<map *ngIf="current"
+    [lat]="current.lat" [lng]="current.lng"></map>

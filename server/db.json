@@ -1,0 +1,7 @@
+{
+  "countries": [
+    { "id": 1001, "name": "Italy", "lat": 42, "lng": 12 },
+    { "id": 1002, "name": "USA", "lat": 111, "lng": 33},
+    { "id": 1003, "name": "Gibuti", "lat": 11, "lng": 44}
+  ]
+}
